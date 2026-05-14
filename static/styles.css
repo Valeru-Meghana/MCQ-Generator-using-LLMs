@@ -1,0 +1,67 @@
+/* ================= GLOBAL ================= */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ================= LIGHT THEME ================= */
+.light {
+    background: linear-gradient(135deg,#f8fafc,#e0f2fe);
+    color: #000000;
+}
+
+.light .block-container {
+    color: #000000;
+}
+
+.light input,
+.light textarea,
+.light select {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #38bdf8 !important;
+    border-radius: 10px !important;
+}
+
+.light button[kind="primary"] {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #38bdf8 !important;
+    border-radius: 10px !important;
+    font-weight: 600;
+}
+
+.light button[kind="primary"]:hover {
+    background: #38bdf8 !important;
+    color: white !important;
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+    background: linear-gradient(135deg,#0f172a,#020617);
+    color: #f9fafb;
+}
+
+.dark .block-container {
+    color: #f9fafb;
+}
+
+.dark input,
+.dark textarea,
+.dark select {
+    background: #020617 !important;
+    color: #f9fafb !important;
+    border: 1px solid #334155 !important;
+    border-radius: 10px !important;
+}
+
+.dark button[kind="primary"] {
+    background: #2563eb !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.dark button[kind="primary"]:hover {
+    background: #1d4ed8 !important;
+}
